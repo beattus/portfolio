@@ -25,6 +25,8 @@ body{
 .cabecalho__menu{
     display: flex;
     gap: 80px;
+    position: sticky;
+    
 }
 .cabecalho{
     padding: 2% 0% 0% 15%;
@@ -37,6 +39,7 @@ body{
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+   
 
 }
 
@@ -69,6 +72,7 @@ body{
 .apresentacao__conteudo__texto{
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
+    text-align: justify;
 }
 
 .apresentacao__links{
@@ -106,7 +110,9 @@ background-color: var(--cor-hover);
 }
 
 .apresentacao__imagem{
-    width: 50%;
+    width: 40%;
+    border: 2px hidden #141E46;
+    border-radius: 50%;
 }
 .rodape{
     padding: 24px;
